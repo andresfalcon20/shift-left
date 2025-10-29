@@ -20,7 +20,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
     - name: Run tests
-      run: pytest --cov=calculadora --cov-report=xml
+      run: pytest --cov=division --cov-report=xml
     - name: Upload coverage
       uses: codecov/codecov-action@v3
       with:
